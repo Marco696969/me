@@ -2,5 +2,5 @@ name: Marco Romeo
 studentNumber: z5204704
 officialEmail: z5204707@id.unsw.edu.au
 contactEmail: 
-  firstBit: z5204707  # this avoids spam, the @ is implied  firstBit:   # this avoids spam, the @ is implied
-  otherBit: @id.unsw.edu.au
+  firstBit: z5204707
+  otherBit: id.unsw.edu.au
