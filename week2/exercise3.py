@@ -7,8 +7,8 @@ def is_odd(a_number):
 
     Look into modulo division using the '%' operator as one way of doing this.
     """
-def odd(x):
-    return x % 2 != 0
+    answer = a_number % 2 != 0
+    return answer
 
 
 def fix_it(moves=True, should_move=True):
