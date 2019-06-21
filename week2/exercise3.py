@@ -67,13 +67,7 @@ def loops_2():
             ['*', '*', '*', '*', '*', '*', '*', '*', '*', '*'],
           ]
     """
-    list1 = []
-    for a in range (10):
-        list2 = []
-        for b in range ("*"):
-            list2.append(str(b))
-        list1.append(list2)
-    return list1
+    
 
 
 def loops_3():
@@ -97,7 +91,13 @@ def loops_3():
     TIP: notice that this needs to to return strings of numbers,
          so call str(number) to cast.
     """
-    return None
+    list1 = []
+    for a in range (10):
+        list2 = []
+        for b in range (10):
+            list1.append(str(a))
+        list1.append(list2)
+    return list1
 
 
 def loops_4():
@@ -121,7 +121,7 @@ def loops_4():
     for a in range (10):
         list2 = []
         for b in range (10):
-            list2.append(str(b))
+            list1.append(str(b))
         list1.append(list2)
     return list1
 
